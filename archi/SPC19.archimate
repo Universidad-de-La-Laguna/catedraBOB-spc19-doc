@@ -3,16 +3,13 @@
   <folder name="Strategy" id="id-2e0b7aa9b3fc4ceaa01e6e432783f0e7" type="strategy"/>
   <folder name="Business" id="id-bb646af76adf47e79e307f5bc159d00d" type="business">
     <element xsi:type="archimate:BusinessObject" name="Insurance (Business Object)" id="id-c8b7ffca876e405d8786017f0f6eb902"/>
-    <element xsi:type="archimate:BusinessFunction" name="Register Insurance (Business Function)" id="id-debae5e7ef2c42d09a262767d0243e91"/>
+    <element xsi:type="archimate:BusinessFunction" name="Register Insurance (Insurer Business Function)" id="id-debae5e7ef2c42d09a262767d0243e91"/>
     <element xsi:type="archimate:BusinessRole" name="Insurer (Business Role)" id="id-54a2f73d68bd43f2a21cde9aeee8c969"/>
-    <element xsi:type="archimate:BusinessInterface" name="Hire Insirance (Business Interface)" id="id-626e13183f5448fd95aacfe19d5801ad"/>
-    <element xsi:type="archimate:BusinessFunction" name="Get Insurances (Business Function)" id="id-afbf5e77eb3044bba900661a2674ce9b"/>
-    <element xsi:type="archimate:BusinessInterface" name="Get All Insurances (Business Interface)" id="id-d9c7b7e17d6944d0a47da52ab2617db2"/>
-    <element xsi:type="archimate:BusinessInterface" name="Get Insurances (Business Interface)" id="id-fa0627e789554f4bb75cb2470f185fc8"/>
-    <element xsi:type="archimate:BusinessService" name="Register Insurance (Business Service)" id="id-5bbc8879eb614bbeb27379cd2afa6868"/>
+    <element xsi:type="archimate:BusinessFunction" name="Get Insurances (Insurer Business Function)" id="id-afbf5e77eb3044bba900661a2674ce9b"/>
+    <element xsi:type="archimate:BusinessService" name="Register Insurance (Insurer Business Service)" id="id-5bbc8879eb614bbeb27379cd2afa6868"/>
     <element xsi:type="archimate:BusinessService" name="Get All Insurances (Business Service)" id="id-d98051bd882d4143bcab3fe9a0586020"/>
     <element xsi:type="archimate:BusinessService" name="Get All Sinisters (Business Process)" id="id-1652589ca48349788683bcfb2cd3e6bc"/>
-    <element xsi:type="archimate:BusinessInterface" name="Web Portal (Business Interface)" id="id-162eb4292abb454ca6169ddcdbaa4945"/>
+    <element xsi:type="archimate:BusinessInterface" name="Insurer Web Portal (Business Interface)" id="id-162eb4292abb454ca6169ddcdbaa4945"/>
     <element xsi:type="archimate:BusinessObject" name="Payment Order (Business Object)" id="id-fe251d3b88474640836f3ddd72f46eb8"/>
     <element xsi:type="archimate:BusinessFunction" name="Check Payment (Business Function)" id="id-f6c525ef692446738ac36385d34b0efc"/>
     <element xsi:type="archimate:BusinessEvent" name="Order Payment (Business Event)" id="id-af6d441e1d834071903869064ee173e7"/>
@@ -21,28 +18,28 @@
     <element xsi:type="archimate:BusinessActor" name="Mutua Tinerfeña (Business Actor)" id="id-9f53aa69f7924a6a95376c4d56301443"/>
     <element xsi:type="archimate:BusinessRole" name="Taker (Business Role)" id="id-2541008c6758497e8bd68edb3d217cbd"/>
     <element xsi:type="archimate:BusinessActor" name="Hotel (Business Actor)" id="id-5df1d4f9daec4b57839a4fb694acea10"/>
-    <element xsi:type="archimate:BusinessFunction" name="Get Insurances (Business Function)" id="id-5dedd4132a68472a879123903cd466d9"/>
+    <element xsi:type="archimate:BusinessFunction" name="Get Insurances (Taker Business Function)" id="id-5dedd4132a68472a879123903cd466d9"/>
     <element xsi:type="archimate:BusinessFunction" name="Create PcrRequest (Business Function)" id="id-73073c983308485793566f6f97ae7ccb"/>
     <element xsi:type="archimate:BusinessFunction" name="Cancel PcrRequest (Business Function)" id="id-a65f8a3f0d104fd2be9a8f85669cb9c4"/>
-    <element xsi:type="archimate:BusinessService" name="Get Insurance (Business Service)" id="id-7985ed3dde7a4dc69ed39f27cb674b8f"/>
+    <element xsi:type="archimate:BusinessService" name="Get Insurances (Business Service)" id="id-7985ed3dde7a4dc69ed39f27cb674b8f"/>
     <element xsi:type="archimate:BusinessService" name="Create PcrRequest (Business Service)" id="id-833fb207a03d460b854022ea17cd2abd"/>
     <element xsi:type="archimate:BusinessService" name="Cancel PcrRequest (Business Service)" id="id-864305cb27184e20865bf4b35c575199"/>
-    <element xsi:type="archimate:BusinessInterface" name="Web Portal (Business Interface)" id="id-2f99400f86fc4431b258b3938309b425"/>
+    <element xsi:type="archimate:BusinessInterface" name="Taker Web Portal (Business Interface)" id="id-2f99400f86fc4431b258b3938309b425"/>
     <element xsi:type="archimate:BusinessObject" name="PCR Request (Business Object)" id="id-df2f3487a90f4165a1d1c921eb25e89e"/>
-    <element xsi:type="archimate:BusinessService" name="Register Insurance (Business Service)" id="id-aa958b38820b40778830bd73f38a6cd1"/>
-    <element xsi:type="archimate:BusinessFunction" name="Register Insurance (Business Function)" id="id-aab354ddc13f40679487ac5a8dc9cc91"/>
+    <element xsi:type="archimate:BusinessService" name="Register Insurance (Taker Business Service)" id="id-aa958b38820b40778830bd73f38a6cd1"/>
+    <element xsi:type="archimate:BusinessFunction" name="Register Insurance (Taker Business Function)" id="id-aab354ddc13f40679487ac5a8dc9cc91"/>
   </folder>
   <folder name="Application" id="id-99a93f3f08564639bb891df27c9801bc" type="application">
-    <element xsi:type="archimate:ApplicationInterface" name="REST API (Application Interface)" id="id-3d4c1902fd6d4000bd5b51b36e0dad7c"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Insurer REST API (Application Interface)" id="id-3d4c1902fd6d4000bd5b51b36e0dad7c"/>
     <element xsi:type="archimate:ApplicationService" name="Register Insurance (Application Service)" id="id-16d0235772464e70bcdb18ea075a3286"/>
     <element xsi:type="archimate:ApplicationFunction" name=" Register Insurance (Application Function)" id="id-b22b6cde7f0844cf8f906b11dd69c472"/>
-    <element xsi:type="archimate:ApplicationComponent" name="REST API (Application Component)" id="id-d001c398240f49d79a7ea262a72a4074"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Insurer REST API (Application Component)" id="id-d001c398240f49d79a7ea262a72a4074"/>
     <element xsi:type="archimate:DataObject" name="Insurance (Data Object)" id="id-f0428a94958b4bb59947ba0fc1ea17bc"/>
-    <element xsi:type="archimate:ApplicationInterface" name="REST API (Application Interface)" id="id-854d678cac7d4343938851c5944559c0"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Taker REST API (Application Interface)" id="id-854d678cac7d4343938851c5944559c0"/>
     <element xsi:type="archimate:ApplicationService" name="Get Insurance (Application Service)" id="id-3cdb43dabedc4024a05208415bec3b39"/>
     <element xsi:type="archimate:ApplicationService" name="Create PcrRequest (Application Service)" id="id-98e0ee5c0e8a4fdcb8f649abd57104b7"/>
     <element xsi:type="archimate:ApplicationService" name="Cancel Pcr Request (Application Service)" id="id-d0eb5af967004ae0b29f643ec8582636"/>
-    <element xsi:type="archimate:ApplicationComponent" name="REST API (Application Component)" id="id-7b869d4ddabb4acfb6a381e840fa91a4"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Taker REST API (Application Component)" id="id-7b869d4ddabb4acfb6a381e840fa91a4"/>
     <element xsi:type="archimate:ApplicationFunction" name="Get Insurance (Application Function)" id="id-a035b551c1ee4937a3d52690747605dc"/>
     <element xsi:type="archimate:ApplicationFunction" name="Create PcrRequest (Application Function)" id="id-78c930732df54ab98bfa33c6838da4e1"/>
     <element xsi:type="archimate:ApplicationFunction" name="Cancel PcrRequest (Application Function)" id="id-84b1c3aaedd54370a2f324bbf2ad8bd2"/>
@@ -56,9 +53,7 @@
   <folder name="Relations" id="id-f702665e8c0d47659fbccaa2723d4ee1" type="relations">
     <element xsi:type="archimate:AccessRelationship" id="id-25b8fd8f7acc4123aa17066c2670b102" source="id-debae5e7ef2c42d09a262767d0243e91" target="id-c8b7ffca876e405d8786017f0f6eb902"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-da77015cad6848b795de3949cab4c4b7" source="id-54a2f73d68bd43f2a21cde9aeee8c969" target="id-debae5e7ef2c42d09a262767d0243e91"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-ca3de8f8e6764dd888c43ec02897d0ea" source="id-debae5e7ef2c42d09a262767d0243e91" target="id-626e13183f5448fd95aacfe19d5801ad"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-08597c9efa804a5fa31896b831b58222" source="id-54a2f73d68bd43f2a21cde9aeee8c969" target="id-afbf5e77eb3044bba900661a2674ce9b"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-4e473d7fa85a4a23baaac44d140e76ac" source="id-afbf5e77eb3044bba900661a2674ce9b" target="id-d9c7b7e17d6944d0a47da52ab2617db2"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-6d969f53bacb401583ec75dca3e21f77" source="id-debae5e7ef2c42d09a262767d0243e91" target="id-5bbc8879eb614bbeb27379cd2afa6868"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-0119875480e3422d9611e79ac5bbcc6d" source="id-afbf5e77eb3044bba900661a2674ce9b" target="id-d98051bd882d4143bcab3fe9a0586020"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-ea6a656b77eb46e1b156368095ec0641" source="id-afbf5e77eb3044bba900661a2674ce9b" target="id-1652589ca48349788683bcfb2cd3e6bc"/>
