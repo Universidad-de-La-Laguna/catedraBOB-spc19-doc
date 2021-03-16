@@ -209,7 +209,6 @@
     <element xsi:type="archimate:CompositionRelationship" id="id-3440cc8ef3ca4caba1c01192abc20b24" source="id-91957c1f6da64911a2a5106f16bb9f44" target="id-cfd6eda1eab546098ae2e3a4f22c5971"/>
     <element xsi:type="archimate:ServingRelationship" id="id-6cd71d9d7c3743f2bbfdb9a359e8445d" source="id-3d4c1902fd6d4000bd5b51b36e0dad7c" target="id-7396d26ff31f4ddc939f4e3d9126de5c"/>
     <element xsi:type="archimate:ServingRelationship" id="id-d8f94478b8574936b6c5dbcc7b64eb35" source="id-98756868f0d349708e8f986e55a90834" target="id-54a2f73d68bd43f2a21cde9aeee8c969"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-f56b6d2770ea4346bb26f80956943d57" source="id-2573c7c37f494a648d52ea91dc995eb8" target="id-972cf397aafb4afaa00ff54bc5592a90"/>
     <element xsi:type="archimate:ServingRelationship" id="id-baf22ce3bc2447ac90647ed01993777d" source="id-2573c7c37f494a648d52ea91dc995eb8" target="id-f6c525ef692446738ac36385d34b0efc"/>
     <element xsi:type="archimate:ServingRelationship" id="id-734fafeda2d34e3e8e6b98c848afa308" source="id-2573c7c37f494a648d52ea91dc995eb8" target="id-afbf5e77eb3044bba900661a2674ce9b"/>
   </folder>
@@ -397,7 +396,7 @@
             <sourceConnection xsi:type="archimate:Connection" id="id-78c16813a6ff491eb595d27dc12065ad" source="id-2035d1b689bc4f10bc1d79cda3f5d65b" target="id-9266db24b3fa4e5dbe7806edcc012d7b" archimateRelationship="id-b7e4ab19d01142dc9da1cb6682b30aa3"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-b862a21d3aaa4e67a44b1daffa32c629" source="id-2035d1b689bc4f10bc1d79cda3f5d65b" target="id-d50189b766414dbe9095a6329453c126" archimateRelationship="id-1bee736ce2554c3ea25a6b2982c750dd"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-935f048a37a9483ebff07f387aca0e87" targetConnections="id-acac0028c86c422581f02fc36fc5a973 id-9cb8a77a08c1488c9a47f0c199d2aac1 id-8c14c247afef42969cdc8eb673c8c942 id-c48be5b6512242428e14e99e413478e3" archimateElement="id-972cf397aafb4afaa00ff54bc5592a90">
+          <child xsi:type="archimate:DiagramObject" id="id-935f048a37a9483ebff07f387aca0e87" targetConnections="id-acac0028c86c422581f02fc36fc5a973 id-9cb8a77a08c1488c9a47f0c199d2aac1 id-8c14c247afef42969cdc8eb673c8c942" archimateElement="id-972cf397aafb4afaa00ff54bc5592a90">
             <bounds x="60" y="36" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-4c79bde711d747e58600fd1d05376b0b" source="id-935f048a37a9483ebff07f387aca0e87" target="id-9266db24b3fa4e5dbe7806edcc012d7b" archimateRelationship="id-a17c00e2106246789e32957e74ee0897"/>
           </child>
@@ -494,14 +493,13 @@
           </sourceConnection>
           <child xsi:type="archimate:DiagramObject" id="id-7f1f4941e18d45cdb459e91f77f59364" targetConnections="id-983d69779dc94e16855f00abd086ef28 id-cbbae503d31f4180b45fb96ea0498277" archimateElement="id-2573c7c37f494a648d52ea91dc995eb8">
             <bounds x="60" y="36" width="132" height="55"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-c48be5b6512242428e14e99e413478e3" source="id-7f1f4941e18d45cdb459e91f77f59364" target="id-935f048a37a9483ebff07f387aca0e87" archimateRelationship="id-f56b6d2770ea4346bb26f80956943d57"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-48f3b7959f424a78950cc8ace913d497" source="id-7f1f4941e18d45cdb459e91f77f59364" target="id-2035d1b689bc4f10bc1d79cda3f5d65b" archimateRelationship="id-baf22ce3bc2447ac90647ed01993777d">
-              <bendpoint startX="-6" startY="-196" endX="-180" endY="56"/>
-              <bendpoint startX="174" startY="-196" endY="56"/>
+              <bendpoint startX="-5" startY="-88" endX="-180" endY="164"/>
+              <bendpoint startX="175" startY="-88" endY="164"/>
             </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-128dfca5a709474da45699b8e37cb4d1" source="id-7f1f4941e18d45cdb459e91f77f59364" target="id-cde1443218bd42f691159bd087c5f131" archimateRelationship="id-734fafeda2d34e3e8e6b98c848afa308">
-              <bendpoint startX="-6" startY="-196" endX="-324" endY="56"/>
-              <bendpoint startX="318" startY="-196" endY="56"/>
+              <bendpoint startX="7" startY="-76" endX="-312" endY="176"/>
+              <bendpoint startX="319" startY="-76" endY="176"/>
             </sourceConnection>
           </child>
         </child>
