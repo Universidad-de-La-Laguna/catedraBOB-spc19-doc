@@ -1,0 +1,1 @@
+This is the Mastering ArchiMate colour scheme for Archi. You can load this file in Archi via Preferences – Colours & Fonts – Colours Tab – Import Scheme
