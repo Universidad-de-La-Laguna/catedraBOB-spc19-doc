@@ -711,38 +711,5 @@
         <feature name="labelExpression" value="[SHARED]&#xA;Insurance Smart Contract (Artifact)"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Generated View for Check Payment (Application Service)" id="id-3e893d54afd14233963d6f71f7588413">
-      <child xsi:type="archimate:DiagramObject" id="id-8e4ddc5eac8b409785b4a2879359f4b7" targetConnections="id-04f84b8c85364b6b9e9b5f2664a78eb3 id-4bb6939c03bc4df5937275ce59247130" archimateElement="id-1266d93648014af0a3db16f746c6a5bc">
-        <bounds x="20" y="20" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-70c6f2c33e45472eb9bc1540f6779eda" source="id-8e4ddc5eac8b409785b4a2879359f4b7" target="id-b2ae244dc1e5495a81f7e97d8e875c66" archimateRelationship="id-e6d23c1cdfc949ba899a1027ba6e7e9d"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-b2ae244dc1e5495a81f7e97d8e875c66" targetConnections="id-3b462027a2c945d192894d677604b0c2 id-71549bfb8e544e02a715805595d3a4d9 id-70c6f2c33e45472eb9bc1540f6779eda" archimateElement="id-f6c525ef692446738ac36385d34b0efc">
-        <bounds x="20" y="324" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-55bd9d898bb840599c5ca320cd27401a" source="id-b2ae244dc1e5495a81f7e97d8e875c66" target="id-73578b1514064227aba540203733235c" archimateRelationship="id-b7e4ab19d01142dc9da1cb6682b30aa3"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-df4b6e114a6a437e8aecb5458e5e137c" source="id-b2ae244dc1e5495a81f7e97d8e875c66" target="id-f868521647eb4e6fa10e1879394d2a80" archimateRelationship="id-1bee736ce2554c3ea25a6b2982c750dd"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-bc541c512bf74eb7a9800b252735027f" archimateElement="id-3d4c1902fd6d4000bd5b51b36e0dad7c">
-        <bounds x="170" y="20" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-04f84b8c85364b6b9e9b5f2664a78eb3" source="id-bc541c512bf74eb7a9800b252735027f" target="id-8e4ddc5eac8b409785b4a2879359f4b7" archimateRelationship="id-b5d19aa03b6c4ef5abd2ed94a911eaf0"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-d4036fd4fecf4c189f56958d7946ff08" archimateElement="id-017002d8ae1d4b1584256cab65019253">
-        <bounds x="170" y="100" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-4bb6939c03bc4df5937275ce59247130" source="id-d4036fd4fecf4c189f56958d7946ff08" target="id-8e4ddc5eac8b409785b4a2879359f4b7" archimateRelationship="id-8addffab4f774749ae18b95dbb3d90d5"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-73578b1514064227aba540203733235c" targetConnections="id-55bd9d898bb840599c5ca320cd27401a" archimateElement="id-fe251d3b88474640836f3ddd72f46eb8">
-        <bounds x="170" y="180" width="120" height="55"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-f868521647eb4e6fa10e1879394d2a80" targetConnections="id-df4b6e114a6a437e8aecb5458e5e137c" archimateElement="id-af6d441e1d834071903869064ee173e7">
-        <bounds x="170" y="260" width="120" height="55"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-5c9a766406d24fb8aef957d4dd455607" archimateElement="id-54a2f73d68bd43f2a21cde9aeee8c969">
-        <bounds x="170" y="340" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-3b462027a2c945d192894d677604b0c2" source="id-5c9a766406d24fb8aef957d4dd455607" target="id-b2ae244dc1e5495a81f7e97d8e875c66" archimateRelationship="id-55feed91853a44be848e9b2829754e01"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-c7b9e180bf8340a485fd8e28945addef" archimateElement="id-2573c7c37f494a648d52ea91dc995eb8">
-        <bounds x="170" y="420" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-71549bfb8e544e02a715805595d3a4d9" source="id-c7b9e180bf8340a485fd8e28945addef" target="id-b2ae244dc1e5495a81f7e97d8e875c66" archimateRelationship="id-baf22ce3bc2447ac90647ed01993777d"/>
-      </child>
-    </element>
   </folder>
 </archimate:model>
