@@ -120,7 +120,7 @@
     <element xsi:type="archimate:TechnologyFunction" name="HL Besu EVM (Lab Technology Function)" id="id-afd192c9112940a88b9863b9d3b69d1e"/>
     <element xsi:type="archimate:TechnologyFunction" name="HL Besu Orion (Lab Technology Function)" id="id-a24593384b71457fb294dbd1ccad7b9b"/>
     <element xsi:type="archimate:Artifact" name="PCR Smart Contract (Artifact)" id="id-50600173545a44cdb9d011980785d7b0"/>
-    <element xsi:type="archimate:Artifact" name="Lab Private State (Artifact)" id="id-1a3d45af7ae14003bf702660bc894312"/>
+    <element xsi:type="archimate:Artifact" name="Taker-Lab Private State (Artifact)" id="id-1a3d45af7ae14003bf702660bc894312"/>
     <element xsi:type="archimate:TechnologyEvent" name="Insurer Event (Technology Event)" id="id-8659e4c729ea4149b7049e4707a6cf2f"/>
     <element xsi:type="archimate:TechnologyInterface" name="Websocket (Insurer Technology Interface)" id="id-0117d09bfdf64770b883b4718ba8f9bf"/>
     <element xsi:type="archimate:TechnologyService" name="Event Emmiter (Insurer Technology Service)" id="id-87f273ba827648afbcf77246c3e0592c"/>
