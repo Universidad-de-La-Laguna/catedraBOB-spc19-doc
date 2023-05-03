@@ -1,10 +1,11 @@
-# Documentación asociada al proyecto SPC19 (Seguro paramétrico de COVID-19)
+# Documentation associated with project SPC19 (COVID-19 parametric insurance)
 
-La documentación incluye:
+Documentation includes:
 
-* Modelo de arquitectura de empresa con Archimate 3.1. Editable con la herramienta [Archi](https://www.archimatetool.com/) (versión 5.0.2).
+* Enterprise architecture model with Archimate 3.1. Editable with the [Archi](https://www.archimatetool.com/) tool (version 5.0.2).
 
-La sección de recursos incluye:
+The resources section includes:
 
-* Metamodelo de Archimate 3.0.1 con dos patrones de colores diferentes.
-* Fichero de preferencias para la configuración de colores de Archimate en la herramienta Archi.
+* Archimate 3.0.1 metamodel with two different color patterns.
+* Preferences file for Archimate color settings in the Archi tool.
+* Images folder with models in PNG format.
